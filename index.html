@@ -22,6 +22,10 @@
         </nav>
     </header>
 
+    <div class="container-foto">
+        <img src="./src/imagen/perfil.png" alt="foto-de-perfil" class="perfil">
+    </div>
+
     <section id="sobre" class="section">
         <h2>Sobre Mim</h2>
         <p>Olá! Meu nome é Leonardo Schmidt, tenho 31 anos e sou apaixonado por tecnologia, desenvolvimento de sistemas
@@ -59,14 +63,23 @@
         </ul>
     </section>
 
-    <section id="contato" class="section">
+    <form action="contato" id="contato" class="section">
         <h2>Contato</h2>
-        <p>Você pode entrar em contato comigo através do e-mail: <strong>leoschmi@gmail.com</strong><br>
-            Ou pelo WhatsApp: <strong>(47) 997056096</strong></p>
-    </section>
+        <input type="text" name="nome" id="nome" class="nome" placeholder="Nome">
+
+        <input type="email" name="email" id="email" class="email" placeholder="Coloque seu email aqui!"><br>
+
+        <input type="text" name="assunto" id="assunto" class="assunto" placeholder="Assunto"><br>
+
+        <textarea name="mensagem" id="mensagem" placeholder="Mensagem" class="mensagem"></textarea><br>
+
+        <input type="submit" value="Envia Mensagem" class="submit">
+
+    </form>
+
 
     <footer>
-         UNINTER 2025 - RU: 1230713 - Leonardo M. Schmidt
+        UNINTER 2025 - RU: 1230713 - Leonardo M. Schmidt
     </footer>
 
 </body>
