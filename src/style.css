@@ -102,8 +102,6 @@ h2 {
 }
 
 
-
-/* para coloca o position: fixed; tem que ter uma width: 100% se não tiver cobrir o footer todo.*/
 footer {
   /* position: fixed; */
   bottom: 0;
